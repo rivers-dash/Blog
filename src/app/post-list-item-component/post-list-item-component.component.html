@@ -1,0 +1,31 @@
+<div class="list-group-item">
+
+	<div class="d-flex flex-row">
+		<h4 class="card-title mr-auto p-2"> {{ post.title }} </h4>
+
+		<div class="p-2">
+			Posted on : {{ post.date | date:'short' }}
+		</div>
+	</div>
+
+	<div class="">
+		{{ post.content }}
+	</div>
+
+	<div class="mt-4 mb-2">
+		<button
+		class="btn btn-success mx-2"
+			type="button"
+			name="likeButton"
+		>Like 👍🏻 </button>
+
+		<button
+			class="btn btn-danger mx-2"
+			type="button"
+			name="dislikeButton"
+		>Dislike 👎🏻 </button>
+	</div>
+
+
+
+</div>
