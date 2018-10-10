@@ -14,6 +14,15 @@ export class PostListItemComponentComponent implements OnInit {
 
   constructor() { }
 
+	getBackgroundColor() {
+		if (this.loveIts > 0) {
+			return 'list-group-item-success'
+		} else if (this.loveIts < 0) {
+			return 'list-group-item-danger'
+		} else {
+			return ''
+		}
+	}
 
   ngOnInit() {
   }
