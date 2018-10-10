@@ -13,13 +13,13 @@ export class AppComponent {
 		{
 			title: 'Mon premier post',
 		  content: this.lorem,
-		  loveIts: 1,
+		  loveIts: 0,
 		  created_at: new Date()
 		},
 		{
 			title: 'Mon second post',
 		  content: this.lorem,
-		  loveIts: -1,
+		  loveIts: 0,
 		  created_at: new Date()
 		},
 		{
