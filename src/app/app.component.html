@@ -4,13 +4,9 @@
       <h2 class="card-title">Posts</h2>
 
 			<ul class="list-group">
-				<app-post-list-item-component
-				*ngFor= "let post of posts"
-				[title]= "post.title"
-				[content]= "post.content"
-				[loveIts]= "post.loveIts"
-				[createdAt]= "post.created_at"
-				></app-post-list-item-component>
+				<app-post-list-component
+					[posts]= "posts"
+				></app-post-list-component>
 			</ul>
 
     </div>

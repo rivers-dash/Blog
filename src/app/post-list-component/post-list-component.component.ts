@@ -7,10 +7,9 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class PostListComponentComponent implements OnInit {
 
-	@Input() temp: string
+	@Input() posts: object
+
   constructor() { }
-
-
 
   ngOnInit() {
   }
